@@ -1,16 +1,100 @@
-# React + Vite
+# Kalakrit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Kalakrit is a modern React + Vite landing page for a multilingual localization and content adaptation business. The site showcases the brand's services, highlights Indian language support, and includes a demo request form for client enquiries.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project presents a polished marketing website for a company that helps businesses localize video, training materials, websites, and campaigns for diverse audiences across India and beyond.
 
-## React Compiler
+Key sections include:
+- Hero section with brand messaging and service positioning
+- Multilingual language showcase around the main graphic
+- Demo request form for lead capture
+- Responsive navigation and marketing-style layout
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React 19
+- Vite
+- JavaScript
+- Tailwind CSS
+- Framer Motion
+- Lucide React icons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+```bash
+src/
+├── App.jsx
+├── components/
+│   ├── DemoForm.jsx
+│   ├── Footer.jsx
+│   ├── Hero.jsx
+│   ├── Navbar.jsx
+│   └── ...
+├── assets/
+├── index.css
+├── main.jsx
+└── App.css
+```
+
+## Getting Started
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Create a `.env` file in the project root and add your W3Forms access key:
+
+```bash
+VITE_WEB3FORMSKEY=your_w3forms_access_key
+```
+
+3. Start the development server:
+
+```bash
+npm run dev
+```
+
+4. Open the local URL shown in the terminal (typically `http://localhost:5173`).
+
+## Available Scripts
+
+```bash
+npm run dev
+```
+Runs the app in development mode.
+
+```bash
+npm run build
+```
+Builds the production bundle for deployment.
+
+```bash
+npm run preview
+```
+Serves the production build locally.
+
+```bash
+npm run lint
+```
+Runs ESLint checks on the project.
+
+## Form Integration
+
+The demo request form submits to the W3Forms API. The form requires a valid `VITE_WEB3FORMSKEY` value in the environment variables. Without that key, the application shows an error message instead of submitting.
+
+## Deployment
+
+This app is ready to be deployed as a Vite static site on platforms such as:
+- Vercel
+- Netlify
+- GitHub Pages
+- Any static hosting provider
+
+## License
+
+This project is for demonstration and business website use.
+

@@ -407,3 +407,53 @@ function DemoForm() {
 }
 
 export default DemoForm;
+export const languages = [
+  {
+    name: "Hindi",
+    native: "हिन्दी",
+  },
+  {
+    name: "Punjabi",
+    native: "ਪੰਜਾਬੀ",
+  },
+  {
+    name: "Haryanvi",
+    native: "हरियाणवी",
+  },
+  {
+    name: "Rajasthani",
+    native: "राजस्थानी",
+  },
+  {
+    name: "Gujarati",
+    native: "ગુજરાતી",
+  },
+  {
+    name: "Marathi",
+    native: "मराठी",
+  },
+  {
+    name: "Tamil",
+    native: "தமிழ்",
+  },
+  {
+    name: "Kannada",
+    native: "ಕನ್ನಡ",
+  },
+  {
+    name: "Bengali",
+    native: "বাংলা",
+  },
+  {
+    name: "Telugu",
+    native: "తెలుగు",
+  },
+  {
+    name: "Malayalam",
+    native: "മലയാളം",
+  },
+  {
+    name: "Odia",
+    native: "ଓଡ଼ିଆ",
+  },
+];

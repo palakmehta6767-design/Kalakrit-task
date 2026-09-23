@@ -1,63 +1,11 @@
 import { ArrowRight, Play } from "lucide-react";
-
-const languages = [
-  {
-    name: "Hindi",
-    native: "हिन्दी",
-  },
-  {
-    name: "Punjabi",
-    native: "ਪੰਜਾਬੀ",
-  },
-  {
-    name: "Haryanvi",
-    native: "हरियाणवी",
-  },
-  {
-    name: "Rajasthani",
-    native: "राजस्थानी",
-  },
-  {
-    name: "Gujarati",
-    native: "ગુજરાતી",
-  },
-  {
-    name: "Marathi",
-    native: "मराठी",
-  },
-  {
-    name: "Tamil",
-    native: "தமிழ்",
-  },
-  {
-    name: "Kannada",
-    native: "ಕನ್ನಡ",
-  },
-  {
-    name: "Bengali",
-    native: "বাংলা",
-  },
-  {
-    name: "Telugu",
-    native: "తెలుగు",
-  },
-  {
-    name: "Malayalam",
-    native: "മലയാളം",
-  },
-  {
-    name: "Odia",
-    native: "ଓଡ଼ିଆ",
-  },
-];
+import { languages } from "./DemoForm";
 
 function Hero() {
   return (
     <section className="hero" id="home">
 
-      {/* =====================================================
-          LEFT CONTENT
-      ===================================================== */}
+      {/*--------- LEFT CONTENT-------------------*/}
 
       <div className="hero-content">
 
@@ -140,9 +88,7 @@ function Hero() {
       </div>
 
 
-      {/* =====================================================
-          RIGHT VISUAL
-      ===================================================== */}
+      {/* -------------RIGHT VISUAL--------------- */}
 
       <div className="hero-visual">
 
@@ -188,9 +134,7 @@ function Hero() {
         </div>
 
 
-        {/* =================================================
-            CENTER VIDEO
-        ================================================= */}
+        {/* ------- CENTER VIDEO ------------- */}
 
         <div className="hero-video-wrapper">
 
@@ -269,9 +213,7 @@ function Hero() {
       </div>
 
 
-      {/* =====================================================
-          BOTTOM SCROLL
-      ===================================================== */}
+      {/* -------------BOTTOM SCROLL----------*/}
 
       <div className="hero-scroll">
 
